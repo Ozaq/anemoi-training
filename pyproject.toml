@@ -59,7 +59,7 @@ dependencies = [
   "torch-geometric>=2.3.1,<2.5",
   "torchinfo>=1.8",
   "tqdm>=4.65",
-  "zarr>=2.14.2",
+  "zarr@git+https://github.com/Ozaq/zarr-python.git@track_file_open",
 ]
 
 optional-dependencies.all = [  ]
